@@ -1,4 +1,4 @@
-basic.showIcon(IconNames.SmallHeart)
+basic.showIcon(IconNames.Happy)
 basic.forever(function () {
     while (input.lightLevel() > 100) {
         servos.P0.run(input.lightLevel())
